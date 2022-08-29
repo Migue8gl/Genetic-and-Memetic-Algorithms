@@ -34,3 +34,20 @@ population replacing the worst of the next generation.
       * 1) local search applied to all the poblation.
       * 2) local search applied to certain indiviuals with a probability of 0.1%.
       * 3) local search applied to the best indiviuals with a probability of 0.1%.
+
+-----HOW TO RUN IT-----
+
+1 - To compile run "make" in the terminal.
+
+2 - To run the program go to the terminal and run "./bin/p2 <seed> <parameter>" where
+<seed> is the seed we choose and
+<parameter> can be:
+		-> 1: spectf-heart
+		-> 2: parkinsons
+		-> 3: ionosphere
+
+--- Other things will get an error ---
+
+[USE] -> A script is attached for a more comfortable execution of the results in text files, the script is "script_acp.sh".
+All data sets can be executed concurrently (which makes the individual times of each program greater, but it is faster when it comes to obtain results).
+If, on the contrary, it is desired, it can be executed sequentially. All of this is specified in the script itself.
