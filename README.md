@@ -1,7 +1,7 @@
 # Genetic-and-Memetic-Algorithms
-Poblation techniques for the Weight Learning Problem.
+Population techniques for the Weight Learning Problem.
 
-- This practice was done in the Metaheuristic (Metaheurísticas) subject at the UGR. It consists in study, understand and execute different poblation based algorithms such as genetic or memetic ones to solve the weight learning problem in three different data sets.
+- This practice was done in the Metaheuristic (Metaheurísticas) subject at the UGR. It consists in study, understand and execute different population based algorithms such as genetic or memetic ones to solve the weight learning problem in three different data sets.
 
 ### Data Sets:
   * Parkinsons – data used to distinguish presence or absence
@@ -30,7 +30,7 @@ population replacing the worst of the next generation.
 - AGE: The main difference with the generational variant is that this algorithm cross two parents once each generation. Only two parents will be crossed and under a certain probability their son will be mutated. If the children are better than the worse individuals in the current generation, they replace them. There is no elitism.
     
 - AM: Memetic algorithms are a combination between genetic algorithms and local search. There will be 3 variations for each genetic algorithm:
-      * 1) local search applied to all the poblation.
+      * 1) local search applied to all the population.
       * 2) local search applied to certain indiviuals with a probability of 0.1%.
       * 3) local search applied to the best indiviuals with a probability of 0.1%.
 
